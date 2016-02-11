@@ -1,0 +1,22 @@
+.box{
+  margin: 0 auto;
+  width: 900px;
+  height: 500px;
+  border: solid grey 5px;
+  position: relative;
+}
+
+.box-two{
+  position: absolute;
+  /*background-color: blue;*/
+  width: 900px;
+  height: 500px;
+}
+
+.mirrors{
+  display: none;
+}
+
+.bang{
+  display: none;
+}

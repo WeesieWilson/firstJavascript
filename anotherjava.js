@@ -7,8 +7,8 @@ var answer = prompt ("Choose a Superpower: Super Strength, Invisiblity, Fly.");
         answer = prompt("Choose a Color: Blue, Orange, Red");
           if (answer === "Blue"){
             console.log("cool");
-            alert("Mirros by Justin Timberlake");
-            location.assign("http://www.mozilla.org");
+            window.alert('hellow');
+            window.location.href='https://www.facebook.com/';
           }
           else if (answer === "Orange") {
             alert("Bang Bang by Ariana Grande");
@@ -132,7 +132,7 @@ var answer = prompt ("Choose a Superpower: Super Strength, Invisiblity, Fly.");
           }
           else {
             alert("Watch me Whip by Silento");
-            location.assign("http://www.mozilla.org");
+
           }
       }
       else{
